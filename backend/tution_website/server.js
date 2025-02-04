@@ -74,7 +74,7 @@ app.use(cors({
         'http://localhost:5173',  // React admin panel
         'http://localhost:3000',  // In case React runs on 3000
         'http://127.0.0.1:5500', // Live Server
-        'null',                  // For local HTML files
+        'https://dearsirhometuition.com',                  // For local HTML files
         '*'                      // Allow all origins for development
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
