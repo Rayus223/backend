@@ -71,8 +71,8 @@ module.exports.broadcastUpdate = broadcastUpdate;
 // Update CORS configuration - replace the existing cors middleware
 app.use(cors({
     origin: [
-        'https:dshtadmin.dearsirhometuition.com',  // React admin panel
-        'http://145.223.23.76:3000/',  // In case React runs on 3000
+        'https://dshtadmin.dearsirhometuition.com',  // React admin panel
+        '145.223.23.76:3000/',  // In case React runs on 3000
         'http://127.0.0.1:5500', // Live Server
         'https://dearsirhometuition.com',                  // For HTML files
         '*'                      // Allow all origins for development
